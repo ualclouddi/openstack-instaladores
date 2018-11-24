@@ -1,5 +1,4 @@
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.#!/bin/bash
+#!/bin/bash
 
 echo "Instalando Docker"
 
@@ -20,5 +19,10 @@ apt-get install -y docker-ce
 groupadd docker
 usermod -aG docker ubuntu
 systemctl enable docker
+
+echo "Instalando Docker Compose"
+
+curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
 
 exit 0
