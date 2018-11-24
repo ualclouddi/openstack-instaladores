@@ -38,6 +38,7 @@ exit 0
 
 > Los scripts disponibles sólo son válidos para Ubuntu. No obstante, los scripts son fáciles de adaptar a otras distribuciones de Linux.
 
+
 ## Scripts disponibles
 
 * [Docker CE](scripts/docker.sh)
