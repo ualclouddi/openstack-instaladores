@@ -13,8 +13,36 @@ Aqui podrás encontrar scripts para incluir en la pestaña de **Configuración**
 
 En la figura se ilustra la creación de una instancia Ubuntu con la el script siguiente para la instalación de Docker. También es posible cargar el script desde un archivo.
 
-<script src="https://gist.github.com/ualmtorres/dec19ebed2981459f8e5677979eb04c3.js"></script>
+```
+#!/bin/bash
+
+echo "Instalando Docker"
+
+apt-get update
+apt-get install -y \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+apt-key fingerprint 0EBFCD88
+add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+apt-get update
+apt-get install -y docker-ce
+groupadd docker
+usermod -aG docker ubuntu
+systemctl enable docker
+
+echo "Instalando Docker Compose"
+curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+
+exit 0
+```
 
 ## Scripts disponibles
 
-* [Docker CE y Docker Compose](scripts/docker.sh)
+* [Docker CE y Docker Compose](https://gist.github.com/ualmtorres/dec19ebed2981459f8e5677979eb04c3)
