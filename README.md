@@ -1,4 +1,4 @@
-# Scripts de post-intsalación en instancias OpenStack
+# Scripts de post-instalación en instancias OpenStack
 
 Al crear una instancia en OpenStack-DI es posible aprovisionarla o configurarla durante su proceso de creación. De esta forma, nuestras instancias ya tendrán instalados y configurados los paquetes necesarios.
  
@@ -43,6 +43,6 @@ chmod +x /usr/local/bin/docker-compose
 exit 0
 ```
 
-## Scripts disponibles
+## Scripts disponibles
 
 * [Docker CE y Docker Compose](https://gist.github.com/ualmtorres/dec19ebed2981459f8e5677979eb04c3)
