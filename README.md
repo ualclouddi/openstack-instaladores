@@ -47,5 +47,6 @@ exit 0
 
 * [Acceso a instancias con usuario y contraseña](https://gist.github.com/ualmtorres/c3e7123d3e414e9e54ad4d3ee1051429)
 * [Ansible](https://gist.github.com/ualmtorres/04f3044594663006a71da3bad848e676)
+* [Configuración de varias claves SSH públicas](https://gist.github.com/ualmtorres/2b7bb36502a90bea6d0c573d2356a167)
 * [Docker CE y Docker Compose](https://gist.github.com/ualmtorres/dec19ebed2981459f8e5677979eb04c3)
 * [Python 2.7](https://gist.github.com/ualmtorres/572bc7cdc54c8ab51471e30375e06c3b)
