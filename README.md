@@ -45,8 +45,13 @@ exit 0
 
 ## Scripts disponibles
 
+* [Actualización de paquetes](https://gist.github.com/ualmtorres/0d77c4f197cbef860558d38b177a42bc)
 * [Acceso a instancias con usuario y contraseña](https://gist.github.com/ualmtorres/c3e7123d3e414e9e54ad4d3ee1051429)
 * [Ansible](https://gist.github.com/ualmtorres/04f3044594663006a71da3bad848e676)
 * [Configuración de varias claves SSH públicas](https://gist.github.com/ualmtorres/2b7bb36502a90bea6d0c573d2356a167)
 * [Docker CE y Docker Compose](https://gist.github.com/ualmtorres/dec19ebed2981459f8e5677979eb04c3)
+* [Instalación sencilla de paquetes](https://gist.github.com/ualmtorres/67c4f1c19faed26f30da899b93318acc)
 * [Python 2.7](https://gist.github.com/ualmtorres/572bc7cdc54c8ab51471e30375e06c3b)
+* [PHP en Ubuntu](https://gist.github.com/ualmtorres/0575fc46623867c95894482f864d687e)
+* [MySQL en Ubuntu](https://gist.github.com/ualmtorres/8a148ed5e5bcd469bfea37ac07c09824)
+* Más scripts disponibles en [cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html)
